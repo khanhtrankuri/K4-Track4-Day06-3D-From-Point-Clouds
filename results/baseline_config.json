@@ -1,0 +1,38 @@
+{
+  "config": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\day6_pointpillars\\pointpillars_hv_secfpn_8xb6-160e_kitti-3d-car.py",
+  "checkpoint": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\day6_pointpillars\\hv_pointpillars_secfpn_6x8_160e_kitti-3d-car_20220331_134606-d42d15ed.pth",
+  "classes": [
+    "Car"
+  ],
+  "device": "cuda:0",
+  "seed": 42,
+  "frames": [
+    "000001",
+    "000004",
+    "000008",
+    "000011",
+    "000049"
+  ],
+  "thresholds": [
+    0.1,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "max_center_distance_m": 2.0,
+  "repeats": 20,
+  "point_cloud_range": [
+    0,
+    -39.68,
+    -3,
+    69.12,
+    39.68,
+    1
+  ],
+  "voxel_size": [
+    0.16,
+    0.16,
+    4
+  ],
+  "model_test_cfg": "{'max_num': 50, 'min_bbox_size': 0, 'nms_across_levels': False, 'nms_pre': 100, 'nms_thr': 0.01, 'score_thr': 0.1, 'use_rotate_nms': True}"
+}
