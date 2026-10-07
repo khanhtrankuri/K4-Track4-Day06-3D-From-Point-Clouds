@@ -23,3 +23,6 @@ secrets*.json
 *.engine
 *.bag
 *.db3
+
+# Checkpoint/config tải bằng mim
+checkpoints/

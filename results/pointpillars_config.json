@@ -1,10 +1,13 @@
 {
-  "config": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\day6_pointpillars\\pointpillars_hv_secfpn_8xb6-160e_kitti-3d-car.py",
-  "checkpoint": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\day6_pointpillars\\hv_pointpillars_secfpn_6x8_160e_kitti-3d-car_20220331_134606-d42d15ed.pth",
+  "tag": "pointpillars",
+  "config": "checkpoints/pointpillars_hv_secfpn_8xb6-160e_kitti-3d-car.py",
+  "checkpoint": "checkpoints/hv_pointpillars_secfpn_6x8_160e_kitti-3d-car_20220331_134606-d42d15ed.pth",
   "classes": [
     "Car"
   ],
   "device": "cuda:0",
+  "hardware": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.1.0+cu121",
   "seed": 42,
   "frames": [
     "000001",
